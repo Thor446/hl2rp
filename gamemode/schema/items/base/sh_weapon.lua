@@ -52,7 +52,7 @@ BASE.functions.Equip = {
 			
 			local clipOne = data.ClipOne
 			
-			if (clipOne > 0) then
+			if (ClipOne > 0) then
 				weapon:SetClip1(clipOne)
 				newData.ClipOne = 0
 			
